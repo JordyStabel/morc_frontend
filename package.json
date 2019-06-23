@@ -1,0 +1,44 @@
+{
+  "name": "morc_frontend_ui_react_redux",
+  "homepage": "https://manwatse.github.io/MorcFrontEnd/",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "10.9.0",
+    "npm": "6.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^16.8.6",
+    "react-beautiful-dnd": "^11.0.3",
+    "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
